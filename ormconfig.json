@@ -1,0 +1,11 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "password123",
+  "database": "node_admin",
+  "entities": ["src/entity/*.ts"],
+  "logging": false,
+  "synchronize": true
+}
